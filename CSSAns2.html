@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body bgcolor="#E6E6FA">
+     <center><h1>Inserting Style Sheet</h1></center>
+    
+    <textarea rows="25" cols="100" readonly >Internal Style Sheet.
+
+         <head>
+               <style>
+               body {
+                 background-color: linen;
+               }
+               
+               h1 {
+                 color: maroon;
+                 margin-left: 40px;
+               } 
+               </style>
+         </head>
+
+Inline Styles 
+
+An inline style may be used to apply a unique style for a single element.
+
+To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+
+The example below shows how to change the color and the left margin of a <h1> element:
+
+      <h1 style="color:blue;margin-left:30px;">This is a heading</h1>
+
+
+
+
+External Style Sheet
+      
+With an external style sheet, you can change the look of an entire website by changing just one file!
+
+Each page must include a reference to the external style sheet file inside the <link> element. The <link> element goes inside the <head> section:
+
+    
+      <head>
+      <link rel="stylesheet" type="text/css" href="mystyle.css">
+      </head>
+
+CSS-file could be like this:
+
+      body {
+         background-color: powderblue;
+       }
+       h1 {
+         color: blue;
+       }
+       p {
+         color: red;
+       }
+    </textarea>
+        
+      
+       
+       <a href="file:CSSHar2.html"><button>Back</button></a>
+      
+
+      
+      
+    </body>
+</head>
+
+
+</html>
